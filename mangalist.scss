@@ -37,13 +37,16 @@ body {
     font-size: 1.5em;
     width: 60px;
     height: 30px;
-    color: #2980b9;
+    color: #000000;
+  }
+
+.bookContainer a:hover {
+    color: white;
   }
   
 .bookImage {
     width: 113px;
     height: 240px;
-    //background: #1a444b;
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 20px auto 15px;

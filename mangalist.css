@@ -39,7 +39,11 @@ body {
   font-size: 1.5em;
   width: 60px;
   height: 30px;
-  color: #2980b9;
+  color: #000000;
+}
+
+.bookContainer a:hover {
+  color: white;
 }
 
 .bookImage {
