@@ -41,7 +41,7 @@ nav ul {
 }
 
 /*nav bar menus*/
-a {
+.header a {
     display: inline-block;
     position:relative;
     padding:13px;
@@ -53,7 +53,7 @@ a {
 
 }
 
-a:after{
+.header a:after{
     content: "";
     display: block;
     margin: auto;
@@ -65,7 +65,7 @@ a:after{
 }
 
 /*nav bar menu hover*/
-a:hover:after {
+.header a:hover:after {
     width: 100%;
 
 } 
@@ -114,16 +114,65 @@ a:hover:after {
 
 }
 
+
 .divider img{
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-right: auto;
     width: 21%;
+    transition: transform 0.3s ease-in-out;
 }
+
+.divider img:hover {
+    transform: scale(1.1);
+}
+
+
 
 .biography img{
     margin:0;
     width: 100%;
     object-fit: contain;
+}
+
+.biographyparagraph {
+    position:absolute;
+    top: 500%;
+    left: 71%;
+    transform: translate(-40%, -150%);
+    padding: 3%;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer{
+    width: 100%;
+    background: #000000;
+    color: #fff; 
+    font-size: 9px;
+}
+.sticky-footer{
+    position: sticky;
+
+}
+
+.whitelogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 

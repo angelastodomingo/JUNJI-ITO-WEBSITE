@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUNJI ITO</title>
+    <link rel="stylesheet" href = "index.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="logo (1).png">
+    </div>
+
+<div class="header">
+    <nav>
+<ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#mangalist">Manga List</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#fancontributions">Fan Contributions</a></li>
+</ul>
+    </nav>
+</div>
+
+<div class="landingpage">
+    <img src="landing page.png">
+</div>
+
+<div class="buylink">
+    <p>Purchase Junji Ito's books here<br>
+    このリンクをクリックして、伊藤潤二の本を購入してください
+    </p>
+    <p id="borderlink">Click here! こちらをクリックしてください</p>
+</div>
+
+<div class="aboutusparagraph">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat quia temporibus quam doloremque autem cumque natus corporis ex quisquam dolor eius obcaecati, odio nemo dolores sapiente assumenda magnam qui! Ipsam cumque maxime vero tempora, quisquam perferendis atque fugit? Laboriosam est nam, quis ipsam excepturi earum iste asperiores soluta pariatur porro ullam accusantium cum nobis quasi omnis reiciendis natus eveniet nisi officiis blanditiis. Quaerat incidunt quidem tempora quibusdam omnis vero voluptatem! Perspiciatis tempore adipisci at sed, suscipit vel, officia deleniti quidem ducimus similique nisi. Et deserunt odio rerum, at accusantium mollitia consequatur, soluta nisi, quae obcaecati tempora nesciunt natus dolores aut?
+    </p>
+</div>
+
+<div class="aboutbg">
+<img src="about us.png">
+</div>
+
+<div class="divider">
+    <img src="award.png">
+    <img src="anime.png">
+    <img src="merch.png">
+    <img src="buy.png">
+</div>
+
+<div class="biography">
+    <img src="biography.png">
+</div>
+
+
+</body>
+</html>

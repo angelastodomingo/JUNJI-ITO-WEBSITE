@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*top red border*/
+.logo {
+  overflow: hidden;
+  background-color: #F53513;
+  width: 100%;
+}
+
+/*the junji ito logo png*/
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/*navbar*/
+.header {
+  align-items: center;
+  display: flex;
+  height: 57px;
+  justify-content: center;
+}
+
+/*the navbar elements*/
+ul {
+  list-style-type: none;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+/*centers the nav bar menus*/
+nav ul {
+  display: flex;
+  transition: 1s;
+}
+
+/*nav bar menus*/
+.header a {
+  display: inline-block;
+  position: relative;
+  padding: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+.header a:after {
+  content: "";
+  display: block;
+  margin: auto;
+  background-color: #F53513;
+  height: 3px;
+  width: 0px;
+  transition: 0.3s;
+}
+
+/*nav bar menu hover*/
+.header a:hover:after {
+  width: 100%;
+}
+
+.slider-container {
+  width: 100vw;
+  height: 50vh;
+  overflow-x: scroll;
+  white-space: nowrap;
+  background-color: #000000;
+}
+
+.junjivideos {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+}
